@@ -24,7 +24,7 @@ install:
 script:
 - yarn lint
 - ng test --watch=false --progress=false --browsers=ChromeHeadlessCI
-- yarn build --base-href https://sobolevsky.anton.github.io/angular-project/
+- yarn build --base-href https://antonsobolevsky.github.io/angular-project/
 
 deploy:
   provider: pages
