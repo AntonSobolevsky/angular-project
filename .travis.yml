@@ -11,4 +11,4 @@ cache:
   directories:
   - node_modules
 script:
-- ng test
+- ng test --watch=false --progress=false --browsers=ChromeHeadlessCI
