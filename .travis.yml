@@ -16,10 +16,6 @@ addons:
     packages:
     - google-chrome-stable
 
-cache:
-  directories:
-  - node_modules
-
 install:
 - npm install -g yarn
 - npm install -g @angular/cli
