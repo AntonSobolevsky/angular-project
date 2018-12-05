@@ -19,6 +19,7 @@ addons:
 install:
 - npm install -g yarn
 - npm install -g @angular/cli
+- yarn install
 
 script:
 - yarn lint
